@@ -123,16 +123,22 @@ function BookTickets() {
               </div>
             ))}
           </div>
-          <div>{amount}</div>
+          <div>
+            <b>{amount}</b>
+          </div>
         </div>
         <div className="finalbookingwrapper">
           <div className="finalbookingdesc">Convinience Fees</div>
-          <div>{25 + (18 / 100) * amount}</div>
+          <div>
+            <b>{25 + (18 / 100) * amount}</b>
+          </div>
         </div>
         <hr />
         <div className="finalbookingwrapper">
           <div className="finalbookingdesc">Total</div>
-          <div>{amount + (25 + (18 / 100) * amount)}</div>
+          <div>
+            <b>{amount + (25 + (18 / 100) * amount)}</b>
+          </div>
         </div>
         <div className="finalPayTicket">
           <button className="payTicket" onClick={handleFinalPayment}>
