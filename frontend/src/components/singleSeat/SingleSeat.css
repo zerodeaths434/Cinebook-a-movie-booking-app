@@ -1,0 +1,37 @@
+.singleSeat
+{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    user-select: none;
+    text-align: center;
+    cursor: pointer;
+    color: #545454;
+    font-size: 12px;
+    font-weight: 700;
+    padding-top: 8px;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 25%), 0 2px 4px 0 rgb(0 0 0 / 25%);
+}
+
+.seatSelected
+{
+    background-color: rgb(69, 236, 69);
+    color: white;
+}
+
+.seatRowDiv
+{
+    margin-top: 10px;
+}
+
+@media only screen and (max-width:660px)
+{
+    .singleSeat
+    {
+        width: 17px;
+        height: 17px;
+        font-size: 8px;
+        padding: 0;
+    }
+}

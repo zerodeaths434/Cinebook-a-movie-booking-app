@@ -1,0 +1,65 @@
+.castCard
+{
+    margin: 10px 30px;
+    text-align: center;
+}
+
+.castCard img
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.castCard h1
+{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.actorName
+{
+    font-size: 20px;
+}
+
+@media only screen and (max-width:1200px)
+{
+
+    .castCard
+    {
+        width: 250px;
+        margin: 10px 0;
+    }
+    .castCard img
+    {
+        height: 200px;
+        width: 200px;
+    }
+
+}
+
+@media only screen and (max-width:496px)
+{
+    .castCard
+    {
+        width: 125px;
+    }
+    .castCard img
+    {
+        height: 100px;
+        width: 100px;
+    }
+
+    .actorName
+    {
+        font-size: 16px;
+    }
+
+    .characterName
+    {
+        font-size: 12px;
+    }
+
+
+}

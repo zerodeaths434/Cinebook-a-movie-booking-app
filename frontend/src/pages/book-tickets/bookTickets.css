@@ -1,0 +1,176 @@
+.bookTicketsMovieTitle
+{
+    font-size: 45px;
+    padding: 10px 0;
+}
+
+.ticketBookingBgImg
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.ticketBookingBgImg img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.bookingTicketsSection
+{
+    
+    margin: 0 auto;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seatsInfoContainer
+{
+    text-align: center;
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1000;
+    padding: 10px;
+}
+
+
+
+.seatHolder
+{
+    margin: 10px;
+}
+
+
+.row_no
+{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    user-select: none;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.payTicketBtnContainer
+{
+    margin: 40px auto;
+}
+
+.payTicket
+{
+    border: none;
+    background-color: #f84464;
+    color: white;
+    border: 1px solid #f84464;
+    padding: 10px 0;
+    border-radius: 5px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.finalTicketBookModal
+{
+    width: 360px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.backBtn
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 22px;
+    height: 22px;
+    cursor:default;
+}
+
+.finalTicketBookModal h1
+{
+    text-align: center;
+}
+
+.finalTicketBookModal p
+{
+    text-align: center;
+}
+
+.finalbookingwrapper
+{
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+.finalbookingdesc
+{
+    flex: 1 1;
+}
+
+.finalPayTicket
+{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.toast-position
+{
+    position: absolute;
+    top:90px !important;
+}
+
+
+
+@media only screen and (max-width:660px)
+{
+    .seatHolder
+    {
+        margin: 0 5px;
+    }
+
+    .seatsInfoContainer
+    {
+        text-align: center;
+        height: 600px;
+    }
+
+    .row_no
+    {
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+
+    .bookTicketsMovieTitle
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+    .payTicketBtnContainer
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+    .finalTicketBookModal
+    {
+        width: 80%;
+    }
+
+
+}
+
+

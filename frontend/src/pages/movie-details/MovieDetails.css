@@ -1,0 +1,202 @@
+.movie-details-section
+{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.Imgoverlay
+{
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.459);
+    width: 100%;
+    height: 100%;
+}
+
+.movie-details-section img
+{
+    width: 100%;
+}
+
+.movie-details-container
+{
+    position: absolute;
+    width: 90%;
+    margin: 0 auto;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.616);
+    color: white;
+
+}
+
+.movie-details-img-container
+{
+    /*background-color: green;*/
+    height: 100%;
+    width: 25%;
+    display: inline-flex;
+    align-items: center;
+}
+
+.movie-details-img-container img
+{
+    height: 100%;
+    width: 90%;
+}
+
+.about-movie
+{
+    position: relative;
+    height: 100%;
+    width: 75%;
+    /*background-color: yellow;*/
+    padding: 0 15px;
+    float: right;   
+}
+
+.movie-title
+{
+    width: 100%;
+    text-align: center;
+    height: 80px;
+    font-size: 45px;
+    padding: 10px 0;
+}
+
+.genre-box
+{
+    width: 100%;
+    text-align: center;
+}
+
+.story
+{
+    font-size: 30px;
+}
+
+.book-ticket-container
+{
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-tickets
+{
+    width: 214px;
+    height: 50px;
+    border: none;
+    background-color: rgb(248, 68, 100);
+    border: 1px solid rgb(248, 68, 100);
+    border-radius: 8px;
+    color: white;
+}
+
+.cast-Div
+{
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.cast-Div h1
+{
+    margin: 20px;
+    font-size: 40px;
+}
+
+.castContainer
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width:1200px)
+{
+    .movie-details-container
+    {
+        height: 70%;
+    }
+    .backdrop_img
+    {
+        height: 100%;
+        width: 100%;
+    }
+
+    .movie-details-img-container
+    {
+        width: 45%;
+    }
+
+    .movie-title
+    {
+        font-size: 30px;
+    }
+
+    .about-movie
+    {
+        width: 55%;
+    }
+
+}
+
+@media only screen and (max-width:580px)
+{
+    .movie-details-section
+    {
+        height: 1300px;
+    }
+
+    .backdrop_img
+    {
+        height: 100%;
+        width: 100%;
+    }
+    .movie-details-container
+    {
+        height: 90%;
+    }
+    .movie-details-img-container
+    {
+        width: 100%;
+    }
+    .movie-details-img-container img
+    {
+        width: 100%;
+    }
+
+    .about-movie
+    {
+        width: 100%;
+    }
+
+    .book-ticket-container
+    {
+        width: 90%;
+    }
+
+    .movie-title
+    {
+        font-size: 30px;
+        margin-bottom: 25px;
+        overflow: hidden;
+    }
+
+    .movie-details-container
+    {
+        display: flex;
+        flex-direction: column;
+
+    }
+}

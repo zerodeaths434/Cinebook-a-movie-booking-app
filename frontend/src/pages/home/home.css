@@ -1,0 +1,45 @@
+.background-movie-carousel
+{
+    position: absolute;
+    top:60px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.movie-carousel-container
+{
+    position: relative;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    height: 500px;
+    z-index: 200;
+}
+
+.movie-carousel-container h1
+{
+    color: white;
+    margin-left: 20px;
+}
+
+.slick-next
+{
+    right: -30px;
+}
+
+.slick-prev
+{
+    z-index: 100;
+    left: -40px
+}
+
+/*@media only screen and (max-width: 1150px)
+{
+    .showBgCarousel
+    {
+        display: none;
+    }
+}*/

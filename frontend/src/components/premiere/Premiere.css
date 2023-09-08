@@ -1,0 +1,26 @@
+.premiere
+{
+    height: 100vh;
+    margin-top: 200px;
+    color: white;
+}
+
+.premiere-title
+{
+    width: 80%;
+    margin: 0 auto;
+    height: 50px;
+    background-color: black;
+    padding-left: 20px;
+}
+
+.premiere-movies
+{
+    background-color: black;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}

@@ -1,0 +1,208 @@
+.navbar
+{
+    background-color: #2a2a2a;
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+    color: white;
+    height: 60px;
+}
+.navbar a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.brand_title
+{
+    width:150px;
+    font-size:  1.5rem;
+    margin: 0.8rem;
+    text-align: center;
+}
+
+.navbar_links ul
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar_links li
+{
+    list-style: none;
+}
+
+.navbar_links li a
+{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+
+.navbar_links li:hover
+{
+    background-color: grey;
+}
+
+.login_signup
+{
+   position: absolute;
+   right: 0;
+}
+
+.login_signup ul
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.login_signup li
+{
+    list-style: none;
+}
+
+.login_signup li a
+{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+
+.user_image
+{
+  position: absolute;
+  right: 150px;
+  width: 40px;
+  height: 40px;
+  border-radius: calc(100vw - 50%);
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.user_name
+{
+    position: absolute;
+    right: 90px;
+    font-size: 17px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.logout
+{
+    position: absolute;
+    right: 10px;
+    font-size: 17px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.search_movies
+{
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.inputDiv
+{
+    width: 80%;
+}
+
+.toggle_button
+{
+    position: absolute;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle_button .bar
+{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px)
+{
+    .toggle_button
+    {
+        display: flex;
+    }
+
+    .navbar_links
+    {
+        display: none;
+        width: 100%;
+    }
+
+    .inputDiv
+    {
+        display: none;
+    }
+
+    .navbar
+    {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .navbar_links ul
+    {
+        width: 100%;
+        flex-direction: column;
+        background-color: #2a2a2a;
+    }
+
+    .navbar_links li
+    {
+        text-align: center;
+    }
+
+    .navbar_links li a
+    {
+        padding: .5rem 1rem;
+    }
+
+    .navbar_links.active
+    {
+        display: flex;
+        z-index: 100;
+    }
+
+    .user_image
+    {
+        right:140px;
+    }
+
+    .user_name
+    {
+        right: 80px;
+    }
+
+}
+
+@media (max-width: 800px)
+{
+
+    .brand_title
+    {
+        width: 75px;
+    }
+
+    .login_signup li a
+    {
+        padding: 0.4rem;
+    }
+
+}
