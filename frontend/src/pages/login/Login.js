@@ -22,7 +22,7 @@ function Login() {
     if (isLogin) {
       dispatch({ type: "LOGIN_START" });
       try {
-        const res = await fetch("http://localhost:8080/auth/verify", {
+        const res = await fetch("https://moviebookingappbackend.onrender.com/auth/verify", {
           method: "POST",
           body: JSON.stringify({
             email: email,
@@ -47,7 +47,7 @@ function Login() {
     } else {
       setError(false);
       try {
-        const res = await fetch("http://localhost:8080/auth/register", {
+        const res = await fetch("https://moviebookingappbackend.onrender.com/auth/register", {
           method: "POST",
           body: JSON.stringify({
             username,
