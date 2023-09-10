@@ -5,3 +5,7 @@ Link - https://cinebook.netlify.app
 <img src="https://res.cloudinary.com/dvs0u47yi/image/upload/v1694375191/Github%20Projects/cinebook1_zbjxy0.jpg"/>
 <img src="https://res.cloudinary.com/dvs0u47yi/image/upload/v1694375192/Github%20Projects/cinebook2_ys68vj.jpg"/>
 <img src="https://res.cloudinary.com/dvs0u47yi/image/upload/v1694375191/Github%20Projects/cinebook3_rzsy5p.jpg"/>
+
+### FULLY RESPONSIVE ⬇
+
+<img src="https://res.cloudinary.com/dvs0u47yi/image/upload/v1694376848/Github%20Projects/download_rokjuw.jpg"/>
